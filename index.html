@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weekly Weather Report</title>
+    <link rel="stylesheet" href="./Assets/Css/style.css" />
+  </head>
+  <body>
+      <h1> Weather Home Page</h1>
+      <!-- Wraps all the content -->
+    <div class="container1">
+        <!-- Wraps left side of screen -->
+        <div class="left">
+            <div>
+                <h3>Search for a City:</h3>
+                <input id="cityInput" type="text">
+                <button id="searchBtn">Search</button>
+            </div>
+            <!-- Previous Search Buttons -->
+            <div id="previousCities"></div>
+        </div>
+        <!-- Wraps right side of screen -->
+        <div class="right">
+            <div class="currentDay"></div>
+            <div class="fiveDayForcast"></div>
+        </div>
+    </div>
+    <script src="./Assets/js/script.js"></script>
+  </body>

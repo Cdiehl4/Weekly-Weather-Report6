@@ -1,0 +1,76 @@
+h1 {
+    text-align: center;
+  }
+  
+  .container1 {
+    display: flex;
+    width: 100%;
+  }
+  
+  .left {
+  display: flex;
+  flex-direction: column;
+  border: 10px;
+  align-self: center;
+  width: 25%;
+  height: 100%;
+  }
+  
+  #previousCities {
+     display: flex;
+    align-items: baseline;
+     margin-left: 0;
+     width: auto;
+     padding: 5px;
+     margin: 8px;
+     border-radius: 2px;
+  }
+  
+  /* .right{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    border: 1px solid blue;
+    border-radius: 3px;
+  
+  } */
+  
+  .currentDay {
+    display: none;
+    width: 50%;
+    position: relative;
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 10px;
+  
+  }
+  
+  .style {
+    display: flex;
+    border: 2px solid black;
+    padding: 3px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .fiveDayForecast {
+    display: inline-flex;
+    flex-direction: row;
+    position: relative;
+    padding: 3px;
+    width: 50%;
+    border: 2px solid black;
+    justify-content: space-between;
+  }
+  
+  
+  .typedCity {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 6px;
+    margin-top: 5px;
+  }
+  
